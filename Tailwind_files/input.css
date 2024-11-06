@@ -10,3 +10,21 @@ div h1,p{
     width: 60%;   
     margin-left:17%  ;
 }
+div a:hover{
+ opacity: 0.8;
+}
+div .background{
+    width: 200px;
+    height: 200px;  
+    /* background-color: blue; */
+    position: relative;
+    margin: 0;
+   
+  
+}
+ .background img::after{ 
+    position: absolute;  
+    content: "";
+    display: block;
+    background-color: blue;
+}    
